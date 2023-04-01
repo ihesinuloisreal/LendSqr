@@ -296,14 +296,38 @@ a {
   margin-left: auto;
   background: #E5E5E5;
 } */
+
+.dashoard-container{
+    position: relative;
+
+    width: 1440px;
+    height: 1384px;
+    background: #FBFBFB;
+}
 .top_nav{
     display: flex;
     justify-content: space-between;
     position: absolute;
+    background: #FFFFFF;
+    box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+    position: absolute;
     width: 1440px;
     height: 100px;
-    left: 0px;
-    top: 0px;
 }
+.logo {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.lsql{
+    color: #213F7D;
 
+    /* background: #213F7D; */
+}
+.union {
+    height: 20px;
 
+    max-width: 20px;
+    /* background: linear-gradient(31.06deg, #213F7D -30.58%, #39CDCC 116.98%); */
+}
