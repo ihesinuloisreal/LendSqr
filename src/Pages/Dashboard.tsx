@@ -13,9 +13,7 @@ export function Dashboard() {
                                 
                         <h1 className="lsql"><img className="union" src={Union} alt="" />lendsql</h1>
                     </div>
-                    <div className="input">
                         <input typeof="text" placeholder="Search here...."/>
-                    </div>
                     <div >
                         <ul className="d-list">
                             <li><a href="#">Docs</a></li>
