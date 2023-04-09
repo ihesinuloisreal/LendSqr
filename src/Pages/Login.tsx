@@ -2,18 +2,17 @@ import pablo from "../images/pablo-sign-in.png"
 import Union from "../images/Union.png"
 export function Login() {
     return (
-        <div className="login-container">
-            <div className="wrapper">
-                <div className="right">
-                    <div className="right-head">
+        <div className="row">
+            <div className="col-6">
+            <div className="right-head">
                         
                         <h1 className="lendsql"><img className="union-img" src={Union} alt="" />lendsql</h1>
 
                     </div>
                     <img className="image" src={pablo}/>
-                </div>
-                <div className="left">
-                    <form>
+            </div>
+            <div className="col-6">
+            <form>
                         <h3 className="welcome">Welcome</h3>
                         <p>Enter details to login</p>
                         
@@ -33,7 +32,8 @@ export function Login() {
                             
 
                     </form>
-                </div>
+            <div className="btn btn-primary">click</div>
+
             </div>
         </div>
     )
