@@ -2,38 +2,47 @@ import pablo from "../images/pablo-sign-in.png"
 import Union from "../images/Union.png"
 export function Login() {
     return (
-        <div className="row">
-            <div className="col-6">
-            <div className="right-head">
-                        
-                        <h1 className="lendsql"><img className="union-img" src={Union} alt="" />lendsql</h1>
-
+        <div className="padding-0">
+            <div className="row no-gutter">
+                <div className="col-6 left">
+                            
+                    <div className="d-flex align-items-center gap-1">
+                        <img className="size" src={Union} alt="" /> 
+                        <h2 className="text-primary">lendsql</h2>
                     </div>
                     <img className="image" src={pablo}/>
-            </div>
-            <div className="col-6">
-            <form>
-                        <h3 className="welcome">Welcome</h3>
-                        <p>Enter details to login</p>
+                </div>
+                <div className="col-6 form">
+                <form className="f-pw">
+                <div className="welcome">Welcome!</div>
+                    <p className="w-p">Enter details to login</p>
+                    <div className="mb-3">
+                        {/* <label className="form-label">Email address</label> */}
+                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
                         
-                        <div className="label">
-                        <label className="form-control-2" typeof="text" />
-                        </div>
+                    </div>
+                    <div className=" mb-3">
+                        {/* <label className="form-label">Password</label> */}
 
-                        <div className="label">
-                        <label className="form-control-2" typeof="text" /> <button className="btn-show">Show</button> 
-                        </div>
-                        
-
-                        <div><a href="#" className="forgot-pass">Forgot PASSWORD?</a></div>
-                        
-
-                        <div><button className="btn">LOG IN</button></div>
+                        <div className="input-group">
+                            <input type="text" className="form-control" placeholder="Password"/>
+                            <a className="input-group-text a" href="#">Show</a>
                             
+                        </div>
+                        
+                    </div>
+                    <a className="f-p" href="#">FORGOT PASSWORD</a>
+                    <div className="mb-3">
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                        
+                    </div>
+                    
+                </form>
+            
+                </div>
+                
 
-                    </form>
-            <div className="btn btn-primary">click</div>
-
+                
             </div>
         </div>
     )
