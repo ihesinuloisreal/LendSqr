@@ -112,3 +112,50 @@ input {
     padding-bottom: 100px;
     text-decoration: none;
 }
+nav {
+    background: #FFFFFF;
+    box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+.union{
+    /* background: linear-gradient(31.06deg, #213F7D -30.58%, #39CDCC 116.98%); */
+    /* height: 20.836618423461914px;
+    width: 20.625px; */
+    /* border-radius: 0px; */
+    height: 30px;
+    width: 115.36643981933594px;
+    left: 59.4375px;
+    top: 35px;
+    border-radius: 0px;
+
+
+}
+.navbar-brand {
+    color: #213F7D;
+    height: 30px;
+    width: 115.36643981933594px;
+    border-radius: 0px;
+
+}
+.text-c {
+    width: 280px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213F7D;
+}
+nav {
+    height: 100px;
+    width: 1440px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+.bgc{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+    height: 1695px;
+    width: 283px;
+    border-radius: 0px;
+
+}
