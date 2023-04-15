@@ -221,15 +221,7 @@ export function Dashboard() {
                                         <td>@twitter</td>
                                         <td><img src={btn} alt="" /></td>
                                     </tr>
-                                    <tr>
-                                        <th scope="row">IENetwork</th>
-                                        <td >Larry the Bird</td>
-                                        <td >Larry the Bird</td>
-                                        <td>@twitter</td>
-                                        <td>@twitter</td>
-                                        <td>@twitter</td>
-                                        <td><img src={btn} alt="" /></td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>
